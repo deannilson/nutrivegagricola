@@ -6,7 +6,7 @@ export const $app = {
   address: "C. Isla de Lobos, 50<br />30730 San Javier, Murcia, Spain",
   hours: "Mon-Sat: 8am – 2pm, 4pm – 7pm",
   vat: "ES B05559307",
-  reg: "",
+  reg: "000",
   contact: "Perez Mercader Enrique",
   api: "https://xtremnet.vercel.app/mailer",
 };
