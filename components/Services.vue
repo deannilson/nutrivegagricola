@@ -5,8 +5,8 @@
         <h5 class="text-overline">WHY CHOOSE US</h5>
         <h2>Apply less, Expect more</h2>
         <p>
-          Our liquid fertilizer is engineered to help you deliver the right
-          nutrition at the right time for the best results possible.
+          Our fertilizers are engineered to help you deliver the right nutrition
+          at the right time for the best results possible.
         </p>
       </div>
       <div class="grid sm:grid-cols-2 md:grid-cols-4 sm:gap-4 md:gap-6 py-6">
