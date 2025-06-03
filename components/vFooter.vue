@@ -22,14 +22,14 @@
           </div>
         </div>
       </div>
-      <div class="opacity-80 font-light">
+      <p class="opacity-80 text-xs">
         &copy {{ new Date().getFullYear() }} {{ $app.name }}. All Right
         Reserved. {{ $app.name }}, a company legally registered under Spanish
         law with VAT number ESB05559307, is headquartered at Calle Isla de
         Lobos, 50, 30730 San Javier, Murcia, Spain. The company is registered in
         the Mercantile Registry of Murcia and operates under the legal form of a
         Sociedad Limitada Unipersonal (S.L.U.).
-      </div>
+      </p>
     </section>
   </footer>
 </template>
