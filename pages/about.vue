@@ -32,7 +32,9 @@
         />
       </div>
     </section>
-    <section class="bg-[url('/images/soybeans-min.jpg')] bg-cover bg-center">
+    <section
+      class="bg-[url('/images/soybeans-min.jpg')] bg-cover bg-center bg-fixed"
+    >
       <div class="py-20 px-6 bg-black/65 text-white">
         <div class="md:flex gap-10 container">
           <div class="py-4 flex-1">

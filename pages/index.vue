@@ -1,6 +1,6 @@
 <template>
   <section
-    class="bg-cover bg-center"
+    class="bg-cover bg-center bg-fixed"
     style="background-image: url('/images/company-building.jpg')"
   >
     <div
