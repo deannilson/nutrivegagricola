@@ -21,7 +21,8 @@
       fertilizer that complements your soil’s natural nutrient profile.
     </p>
     <h3>Types of Inorganic Fertilizers</h3>
-    <h4>1.⁠ ⁠Nitrogen Fertilizers:</h4>
+    <hr class="mb-4" />
+    <h4 class="text-primary">1.⁠ ⁠Nitrogen Fertilizers:</h4>
     <div class="pl-4">
       <p>
         Nitrogen is one of the most common fertilizers used in wide farming.
@@ -38,20 +39,30 @@
         excessive use of nitrogen fertilizers can lead to environmental problems
         such as water pollution and soil degradation.
       </p>
-      <div class="mb-4">
+      <div class="mb-4 grid sm:grid-cols-2">
         <nuxt-link
           v-for="(n, i) in list"
           :to="n.path"
-          class="group flex items-center fontlato pl-3 text-primary font-lato"
+          class="group flex items-center gap-2 pl-3 py-0.5 font-medium text-lg text-primary"
         >
-          <i class="fa-solid fa-circle-arrow-right text-lg mr-2" />
-          <span class="group-hover:underline font-black text-sm">
-            {{ n.title }} fertilizer - {{ n.nitrogen_content }} nitrogen
+          <i class="fa-light fa-circle-chevron-right text-xl opacity-65" />
+          <span class="underline underline-offset-4 group-hover:decoration-4">
+            {{ n.title }}
           </span>
         </nuxt-link>
       </div>
+      <div class="flex mb-4">
+        <nuxt-link
+          to="/fertilizers/inorganic/nitrogen"
+          class="btn w-auto h-10 px-12"
+        >
+          Nitrogen Fertilizers
+          <i class="fa-solid fa-circle-chevron-right text-lg ml-2" />
+        </nuxt-link>
+      </div>
     </div>
-    <h4>2. Phosphorus Fertilizers:</h4>
+    <hr class="mb-4" />
+    <h4 class="text-primary">2. Phosphorus Fertilizers:</h4>
     <div class="pl-4">
       <p>
         The most common source of phosphorus for plants is through fertilizers,
@@ -66,7 +77,8 @@
         crop requirements.
       </p>
     </div>
-    <h4>3. Potassium Fertilizers:</h4>
+    <hr class="mb-4" />
+    <h4 class="text-primary">3. Potassium Fertilizers:</h4>
     <div class="pl-4">
       <p>
         Potassium is particularly important for developing fruits and seeds,
@@ -85,7 +97,8 @@
         sufficient potassium levels in the soil.
       </p>
     </div>
-    <h4>4. Compound (NPK) Fertilizer</h4>
+    <hr class="mb-4" />
+    <h4 class="text-primary">4. Compound (NPK) Fertilizer</h4>
     <div class="pl-4">
       <p>
         Fertilizers that contain varying levels of N, P, and K are known as
@@ -102,7 +115,7 @@
 </template>
 
 <script setup lang="ts">
-import list from "@/resources/nitrogenous.json";
+import list from "@/resources/nitrogen.json";
 </script>
 
 <style scoped></style>

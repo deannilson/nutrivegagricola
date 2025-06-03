@@ -25,7 +25,8 @@
       molecules. This process is slow and hence the full and timely consumption
       of the nutrients by plants is ensured unlike the chemical fertilizers.
     </p>
-    <h4>1. Animal-Based Organic Fertilizers</h4>
+    <hr class="mb-4" />
+    <h4 class="text-primary">1. Animal-Based Organic Fertilizers</h4>
     <div class="pl-4">
       <p>
         Animal manure and slaughterhouse byproducts are the main sources of
@@ -71,7 +72,8 @@
         </li>
       </ul>
     </div>
-    <h4>2.⁠ ⁠Plant-Based Organic Fertilizers</h4>
+    <hr class="mb-4" />
+    <h4 class="text-primary">2.⁠ ⁠Plant-Based Organic Fertilizers</h4>
     <div class="pl-4">
       <p>
         Plant-based fertilizing products, often derived from agricultural

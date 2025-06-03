@@ -13,7 +13,7 @@
       <em>chlorophyll</em>, and <em>nucleic acids</em> that plants need for
       photosynthesis and growth.
     </p>
-    <h4>Types of Nitrogenous Fertilizer</h4>
+    <h4 class="border-t pt-4">Types of Nitrogenous Fertilizer</h4>
     <div class="grid sm:grid-cols-2 gap-4 sm:gap-6 mb-6">
       <nuxt-link
         v-for="(n, i) in list"
@@ -29,7 +29,7 @@
         <p class="text-xs mb-0 pt-3">{{ n.excerpt }}</p>
       </nuxt-link>
     </div>
-    <h4>Agricultural Importance</h4>
+    <h4 class="border-t pt-4">Agricultural Importance</h4>
     <div class="pl-4">
       <p>
         Nitrogenous fertilizers play a critical role in modern agriculture by:
@@ -47,7 +47,7 @@
         </li>
       </ul>
     </div>
-    <h4>Application Considerations</h4>
+    <h4 class="border-t pt-4">Application Considerations</h4>
     <div class="pl-4">
       <p>Effective use requires understanding of:</p>
       <ol>
@@ -74,7 +74,7 @@
 </template>
 
 <script setup lang="ts">
-import list from "@/resources/nitrogenous.json";
+import list from "@/resources/nitrogen.json";
 </script>
 
 <style scoped></style>
