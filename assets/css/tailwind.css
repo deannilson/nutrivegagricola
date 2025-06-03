@@ -195,7 +195,10 @@
   }
 
   .textfield {
-    @apply h-12 border  p-3 rounded placeholder:text-black/35 hover:border-black/50 focus:border-black;
+    @apply h-12 border p-3 rounded placeholder:text-black/50 hover:border-black/35 focus:border-black/65 font-semibold font-lato text-sm;
+  }
+  select.textfield {
+    @apply invalid:text-black/50;
   }
   textarea.textfield {
     @apply pt-2 h-auto;

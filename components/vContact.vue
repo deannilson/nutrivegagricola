@@ -15,10 +15,12 @@
       <Submit :loading="loading" title="Send message" />
     </form>
 
-    <div class="text-xs pt-4 text-center">
+    <p
+      class="text-[10px] leading-none font-semibold opacity-85 pt-4 text-center"
+    >
       *We respect your privacy. All information will be kept confidential and
       will not be sold, rented, loaned or otherwise disclosed.
-    </div>
+    </p>
   </section>
 </template>
 
