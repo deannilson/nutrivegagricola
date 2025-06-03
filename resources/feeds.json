@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Oats",
+    "desc": "Oats are a nutrient-rich food associated with lower blood cholesterol and reduced risk of human heart disease when consumed regularly. The oat, sometimes called the common oat, is a species of cereal grain grown for its seed, which is known by the same name. Oats appear to have been domesticated as a secondary crop, as their seeds resembled those of other cereals closely enough for them to be included by early cultivators. Studies show that oats and oatmeal have many health benefits. These include weight loss, lower blood sugar levels, and a reduced risk of heart disease. Oats are among the healthiest grains on earth. They're a gluten-free whole grain and a great source of important vitamins, minerals, fiber, and antioxidants.",
+    "slug": "oats"
+  },
+  {
+    "title": "Corn",
+    "desc": "Maize, also known as corn in North American English, is a tall stout grass that produces cereal grain. It was domesticated by indigenous peoples in southern Mexico about 9,000 years ago from wild teosinte. Native Americans planted it alongside beans and squashes in the Three Sisters polyculture. A medium ear of yellow corn has almost 900 micrograms of antioxidants called lutein and zeaxanthin. A 2018 study suggests that these antioxidants promote healthy vision and eyes. Antioxidants also protect your body from free radicals, molecules that cause chronic inflammation, heart disease and other conditions.",
+    "slug": "corn"
+  },
+  {
+    "title": "Barley",
+    "desc": "Barley is a widely cultivated cereal grain used for food, animal feed, and brewing, particularly for beer and whiskey. It's a good source of fiber, vitamins, and minerals, and can be used in various dishes like soups, stews, and breads. Its Scientific name is Hordeum vulgare and is a cereal grain belonging to the grass family (Poaceae). Barley is a major crop grown globally, particularly in temperate climates. They are used in breads, soups, stews, and other dishes and acts as a key ingredient in brewing beer and whiskey and also a common feed grain for livestock. Other Used as a sweetener and in some cultures, roasted barley is steeped in water as a tea. Barley is a good source of fiber, especially the soluble fiber beta-glucan, which can help lower blood sugar and cholesterol levels. It contains various vitamins and minerals, including calcium, zinc, iron, potassium, and phosphorus.",
+    "slug": "barley"
+  },
+  {
+    "title": "Sorghum",
+    "desc": "Sorghum is the world's fifth-most important cereal crop after rice, wheat, maize, and barley.[10] Sorghum is typically an annual, but some cultivars are perennial. It grows in clumps that may reach over 4 metres (13 ft) high. The grain is small, 2 to 4 millimetres (0.08 to 0.2 in) in diameter. Sweet sorghums are cultivars primarily grown for forage, syrup production, and ethanol. They are taller than those grown for grain. Sorghum is a large stout grass that grows up to 2.4 metres (7.9 ft) tall. It has large bushy flowerheads or panicles that provide an edible starchy grain with up to 3,000 seeds in each flowerhead. It grows in warm climates worldwide for food and forage. Sorghum May Protect Against Diabetes and Insulin Resistance.A study from the University of Georgia Neutraceutical Research Libraries showed that sorghum brans with a high phenolic content and high anti-oxidant properties inhibit protein glycation, whereas wheat, rice or oat bran, and low-phenolic sorghum bran did not.",
+    "slug": "sorghum"
+  },
+  {
+    "title": "Soybeans",
+    "desc": "Soybeans, scientifically known as Glycine max, are a type of legume native to East Asia, rich in protein and used for various food products and other applications, including animal feed and oil extraction. Soybeans and soy foods may reduce the risk of a range of health problems, including cardiovascular disease, stroke, coronary heart disease (CHD) and some cancers, as well as improving bone health. Soy is a high-quality protein – one or 2 daily serves of soy products can be beneficial to our health.Soybeans are rich in isoflavones, which experiments have shown to have reproductive toxicities. A Harvard Study linked high consumption of isoflavones to lower sperm counts. For many, soy can be a healthy food, but if you are a man struggling with fertility, it may be worth keeping off the list.",
+    "slug": "soybeans"
+  },
+  {
+    "title": "Fish meal",
+    "desc": "Fish meal is a coarsely ground powder made from cooked fish, primarily used as a protein-rich ingredient in animal feed, especially for poultry, swine, mink, farm-raised fish, and pets. Fish meal is a commercial product made from whole wild-caught fish, bycatch, and fish by-products and is made during the process whereby Chopped fish is cooked, pressed, dried, and ground to create the meal.It is used as Animal Feed whereby it acts as a key ingredient in animal feed, particularly for poultry, swine, mink, farm-raised fish, and pets. Fish meal is a good source of protein and other essential nutrients, contributing to healthy growth and disease resistance and Fishmeal is recognized as safe and natural and is an effective feed ingredient for poultry, provided that it is derived from sustainable sources. Also Fishmeal can be produced from fish caught for human consumption (like salmon and tuna) or from fish caught specifically for meal production (like herring, menhaden, and pollack).The process involves heating (\"cooking\"), pre-straining, pressing (or centrifugation), separation of press liquor, oil polishing, evaporation of stickwater, and drying. Fishmeal contains a wide range of nutrients, depending on the raw material, processing methods, and environmental conditions.",
+    "slug": "fish-meal"
+  },
+  {
+    "title": "Blood meal",
+    "desc": "Blood meal is a dry, inert powder made from dried animal blood, used as a high-nitrogen organic fertilizer and a high-protein animal feed, particularly for cattle, fish, and poultry. Blood meal is a by-product of the meat packing industry, produced by grinding dried blood into a meal. It is used as Animal Feed as it is a good source of protein and can be used to supplement diets for various livestock, including dairy cattle, beef cattle, sheep, pigs, poultry, fish, and silkworms and acys as a Fertilizer as It's a readily available source of organic nitrogen, promoting rapid vegetative growth in plants.",
+    "slug": "blood-meal"
+  },
+  {
+    "title": "Canola meal",
+    "desc": "Canola meal is a protein-rich byproduct of canola oil extraction, used as a cost-effective and versatile feed ingredient for livestock, poultry, and fish, known for its excellent amino acid profile and palatability.",
+    "slug": "canola-meal"
+  },
+  {
+    "title": "Soybean meal",
+    "desc": "Soybean meal is a protein-rich by-product of soybean oil extraction, used as a protein supplement in both animal feed and human food, and is considered a \"gold standard\" for protein quality. Soybean meal is a major protein source for livestock, poultry, and aquaculture, known for its high protein content and good amino acid profile. It's used in various food products, including meat substitutes, and can be processed into products like soy milk, tofu, and tempeh. Soybean meal can be used as a nitrogen source in organic farming.",
+    "slug": "soybean-meal"
+  },
+  {
+    "title": "Cottonseed meal",
+    "desc": "Cottonseed meal is the byproduct remaining after cotton is ginned, the oil extracted, and the seeds crushed. Cottonseed meal is usually used for animal feed and in organic fertilizers. Cottonseed meal is about 40 percent protein by weight.",
+    "slug": "cottonseed-meal"
+  },
+  {
+    "title": "Corn gluten meal",
+    "desc": "Corn gluten meal is a protein-rich byproduct of corn processing, used as animal feed and, surprisingly, as a natural herbicide. It's a powder or granular material containing around 60% protein and acts as a pre-emergent herbicide, preventing weeds from establishing roots after germination. Corn gluten meal is one product of wet-milling corn as well as corn starch, germ oil meal, corn gluten feed, and steep liquor. Corn is steeped in water mixed with sulfur dioxide and ground to separate germ from the endosperm to extract oil.",
+    "slug": "corn-gluten-meal"
+  },
+  {
+    "title": "Meat and bone meal",
+    "desc": "Meat and bone meal (MBM) is a product of the rendering industry, primarily used in animal feed to provide protein, amino acids, phosphorus, and calcium. It's made from rendered animal tissues, including bones, and is a valuable ingredient in aquaculture and livestock diets. MBM is a dry, ground, rendered product containing mammalian tissues, including bone. MBM is a source of protein, amino acids, phosphorus, and calcium, making it a valuable ingredient in animal feed, particularly for poultry, swine, and fish. MBM can be used as a protein-rich ingredient in fish feed for aquaculture and can be used to improve soil fertility and structure.",
+    "slug": "meat-and-bone-meal"
+  }
+]

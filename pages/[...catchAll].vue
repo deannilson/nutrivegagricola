@@ -1,5 +1,5 @@
 <template>
-  <v-breadcrums title="Page Not Found" />
+  <Breadcrums title="Page Not Found" />
   <div class="p-8 sm:p-12">
     <div class="md flex flex-col items-center">
       <div class="flex w-full max-w-xl gap-1 mb-8 text-white">

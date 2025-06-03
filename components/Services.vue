@@ -1,106 +1,70 @@
 <template>
-  <div>
-    <section class="py-20 px-6 bg-black text-white">
-      <div class="grid md:grid-cols-3 gap-10 container">
-        <div class="flex flex-col py-4">
-          <div class="pb-8 flex-1">
-            <h5 class="text-overline">OUR SERVICES</h5>
-            <h4 class="font-semibold text-3xl mb-6">What We Offer</h4>
-            <p class="mb-6">
-              We provide a comprehensive range of high-quality ferrous and
-              non-ferrous scrap materials. Our products are sourced to meet
-              industry demands while promoting sustainability and resource
-              efficiency.
-            </p>
-          </div>
-          <div>
-            <contact-us />
-          </div>
-        </div>
-        <div
-          class="bg-white aspect-square bg-cover bg-[url('/ferrous-scrap.jpg')] border"
-        >
-          <div
-            class="bg-gradient-to-b from-transparent via-black/70 to-black/80 flex flex-col justify-end p-4 h-full"
-          >
-            <div>
-              <h2 class="text-2xl font-bold text-primary pb-2 mb-2 border-b-2">
-                Ferrous Metal Scrap
-              </h2>
-              <p>
-                Ferrous scrap materials, primarily iron and steel, are crucial
-                for recycling and manufacturing. Our premium-quality ferrous
-                scrap helps conserve resources, reduce energy use, and ensure
-                cost-effective, sustainable production.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          class="bg-white aspect-square relative bg-cover bg-[url('/non-ferrous-scrap.jpg')] border"
-        >
-          <div
-            class="bg-gradient-to-b from-transparent via-black/70 to-black/80 flex flex-col justify-end p-4 h-full"
-          >
-            <div>
-              <h2 class="text-2xl font-bold text-primary pb-2 mb-2 border-b-2">
-                Non-Ferrous Metal Scrap
-              </h2>
-              <p>
-                Non-ferrous scrap, including aluminum, copper, and brass, is
-                essential for industrial use due to its unique properties. Our
-                premium selection helps preserve resources, reduce energy
-                consumption, and minimize environmental impact.
-              </p>
-            </div>
+  <section class="py-20 px-6">
+    <div class="container">
+      <div class="text-center">
+        <h5 class="text-overline">WHY CHOOSE US</h5>
+        <h2>Apply less, Expect more</h2>
+        <p>
+          Our liquid fertilizer is engineered to help you deliver the right
+          nutrition at the right time for the best results possible.
+        </p>
+      </div>
+      <div class="grid sm:grid-cols-2 md:grid-cols-4 sm:gap-4 md:gap-6 py-6">
+        <div v-for="n in items" class="max-sm:flex">
+          <i
+            :class="`fa-light fa-${n.icon} text-2xl sm:text-5xl max-sm:w-12 max-sm:mt-2`"
+          />
+          <div class="flex-1">
+            <h6 class="font-bold text-lg mt-2">{{ n.title }}</h6>
+            <p>{{ n.desc }}</p>
           </div>
         </div>
       </div>
-    </section>
-    <section class="py-20 px-6">
-      <div class="md:flex gap-10 container">
-        <div class="md:w-1/3">
-          <h5 class="text-overline">WHY CHOOSE US</h5>
-          <h4 class="font-black text-4xl sm:text-4xl mb-6">
-            Committed to <br />
-            <span class="text-primary">Excellence</span> and <br />
-            <span class="text-primary">Sustainability</span>
-          </h4>
-        </div>
-        <div class="md:w-2/3">
-          <Accordion v-model="index" :items="items" />
-        </div>
-      </div>
-    </section>
-  </div>
+    </div>
+  </section>
 </template>
 
 <script setup lang="ts">
-const index = ref(0);
 const items = [
   {
-    title: "Top-Quality Metals",
-    desc: "We provide high-grade ferrous and non-ferrous metals, ensuring optimal performance for your projects.",
+    title: "Boost Growth & Yield",
+    desc: "Formulated to help crops grow faster and produce higher yields.",
+    icon: "seedling",
   },
   {
-    title: "Global Sourcing Expertise",
-    desc: "Our extensive network guarantees a consistent supply of premium materials, no matter where you are",
+    title: "Ideal for Fruits, Vegetables & Nuts",
+    desc: "Tailored nutrition for a wide range of crops.",
+    icon: "apple-alt",
   },
   {
-    title: "Timely Deliveries",
-    desc: "Our efficient distribution system ensures that you receive your materials on time, every time.",
+    title: "Easy to Apply",
+    desc: "Simple to spray and compatible with common farming equipment.",
+    icon: "spray-can",
   },
   {
-    title: "Trust and Transparency",
-    desc: "With a focus on risk management and compliance, we foster secure trading relationships that you can rely on.",
+    title: "Highly Compatible",
+    desc: "Mixes easily with other fertilizers, herbicides, and treatments.",
+    icon: "vial",
   },
   {
-    title: "Research and Development",
-    desc: "Nord Alu invests in R&D to improve recycling processes and promote sustainable metal recovery.",
+    title: "Flexible Application",
+    desc: "Suitable for both in-furrow and foliar application methods.",
+    icon: "exchange-alt",
   },
   {
-    title: "Corporate Social Responsibility",
-    desc: "We engage in CSR initiatives that support communities and promote environmental sustainability for a healthier planet.",
+    title: "Irrigation-Ready",
+    desc: "Can be delivered directly through your irrigation system.",
+    icon: "water",
+  },
+  {
+    title: "Seed & Leaf Safe",
+    desc: "Safe for direct application to seeds and tender plant tissue.",
+    icon: "leaf",
+  },
+  {
+    title: "Eco-Conscious Farming",
+    desc: "Optimized nutrition means less waste, better soil health, and reduced environmental impact.",
+    icon: "recycle",
   },
 ];
 </script>

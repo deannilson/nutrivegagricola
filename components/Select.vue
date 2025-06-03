@@ -1,15 +1,15 @@
 <template>
-  <div class="relative">
-    <label class="flex font-semibold opacity-75 mb-1 text-sm">
-      {{ label }}
-    </label>
-    <i
-      class="fa-solid fa-caret-down absolute z-10 right-4 bottom-10 pointer-events-none"
-    />
-    <select required v-model="model" class="textfield">
-      <option v-if="label" value="">{{ label }}</option>
-      <option :key="n" v-for="n in items" :value="n">{{ n }}</option>
-    </select>
+  <div class="mb-4">
+    <label class="font-exo font-bold text-xs uppercase"> {{ label }}* </label>
+    <div class="relative flex items-center">
+      <select required v-model="model" class="textfield">
+        <option v-if="label" value="">{{ label }}</option>
+        <option :key="n" v-for="n in items" :value="n">{{ n }}</option>
+      </select>
+      <i
+        class="fa-solid fa-caret-down absolute z-10 right-4 pointer-events-none"
+      />
+    </div>
   </div>
 </template>
 

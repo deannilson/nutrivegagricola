@@ -1,8 +1,6 @@
 <template>
-  <div>
-    <label class="flex font-semibold opacity-75 mb-1 text-sm">
-      {{ label }}
-    </label>
+  <div class="mb-4">
+    <label class="font-exo font-bold text-xs uppercase"> {{ label }}* </label>
     <input
       required
       v-if="!textarea"
@@ -13,11 +11,11 @@
     />
     <textarea
       v-else
-      rows="3"
+      rows="2"
       required
       v-model="model"
       :placeholder="label"
-      class="textfield h-auto"
+      class="textfield"
     />
   </div>
 </template>

@@ -3,9 +3,9 @@ export default <Partial<Config>>{
   theme: {
     extend: {
       colors: {
-        accent: "#F9E7DE",
-        primary: "#005425",
-        secondary: "#f3f5f7",
+        accent: "#4B4B4D",
+        primary: "#0E8541",
+        secondary: "#F9F9F9",
       },
     },
     screens: {

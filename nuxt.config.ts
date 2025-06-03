@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     head: {
       charset: "utf-16",
       viewport: "width=device-width, initial-scale=1, shrink-to-fit=no",
-      title: "Welcome",
+      title: "Precision Fertilizers. Proven Results.",
       titleTemplate: `%s - ${$app.name}`,
       meta: [
         { charset: "utf-8" },
@@ -16,7 +16,7 @@ export default defineNuxtConfig({
         { name: "format-detection", content: "telephone=no" },
         {
           name: "description",
-          content: `${$app.name} is a company dedicated to the supply and marketing of scrap metals, steel and aluminum in Neumünster, Germany`,
+          content: $app.desc,
         },
         { name: "og:locale", content: "en_US" },
         { name: "og:type", content: "website" },
@@ -26,7 +26,7 @@ export default defineNuxtConfig({
         },
         {
           name: "og:description",
-          content: `${$app.name} is a company dedicated to the supply and marketing of scrap metals, steel and aluminum in Neumünster, Germany`,
+          content: $app.desc,
         },
         {
           name: "og:site_name",
@@ -41,6 +41,10 @@ export default defineNuxtConfig({
         {
           rel: "stylesheet",
           href: "https://xtremnet.vercel.app/fonts/fontawesome/css/all.min.css",
+        },
+        {
+          rel: "stylesheet",
+          href: "https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap",
         },
       ],
     },
