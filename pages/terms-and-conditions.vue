@@ -11,10 +11,11 @@
     <hr />
     <h4>1. <strong>Company Information</strong></h4>
     <p>
-      <strong>{{ $app.name }}</strong
-      ><br />Registered in Germany<br />{{ $app.address.replace("<br />", " ")
-      }}<br />Email: {{ $app.email }}<br />Phone: {{ $app.phone }}<br />VAT/Tax
-      ID: {{ $app.vat }}
+      <strong>{{ $app.name }}</strong>
+      <br />Registered in Spain <br />{{ $app.address.replace("<br />", " ") }}
+      <br /><b>Email: </b> {{ $app.email }}<br /><b>Phone: </b> {{ $app.phone
+      }}<br />
+      <b>VAT/Tax ID:</b> {{ $app.vat }}
     </p>
     <hr />
     <h4>2. <strong>Scope of Services</strong></h4>
